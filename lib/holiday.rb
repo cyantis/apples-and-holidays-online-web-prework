@@ -20,6 +20,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_supplies.each do |season, holiday|
     holiday.each do |supplies|
       binding.pry
+    end
   end
 end
 
