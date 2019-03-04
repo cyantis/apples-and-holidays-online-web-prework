@@ -17,9 +17,9 @@ holiday_supplies = {
 }
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  holiday_supplies.each do |season, holiday|
-    binding.pry
-    holiday.each do |supplies|
+  holiday_supplies.each do |season, holidays|
+    holidays.each do |holiday, supplies|
+      supplies[1] if holiday == :fourth_of_july
     end
   end
 end
