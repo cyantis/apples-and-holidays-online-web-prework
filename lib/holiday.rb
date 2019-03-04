@@ -17,7 +17,10 @@ holiday_supplies = {
 }
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  holiday_supplies.
+  holiday_supplies.each do |season, holiday|
+    holiday.each do |supplies|
+      binding.pry
+  end
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
